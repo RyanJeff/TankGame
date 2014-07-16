@@ -1,0 +1,12 @@
+Tanks Game GDD
+
+
+Table of Contents
+
+Game Overview
+Team Personnel
+Plot & Setting Information
+Core Game Play
+Environment Elements (environments, characters, weapons, etc.)	
+Interface Usage (mouse, keyboard, etc.)
+Menu and General Game Usage
