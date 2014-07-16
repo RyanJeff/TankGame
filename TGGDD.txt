@@ -4,9 +4,34 @@ Tanks Game GDD
 Table of Contents
 
 Game Overview
+Tanks game is a 2D stage game where you are in control of a tank and are pitted against another tank.  The objective is to destroy
+the other tank before he destroys you.  The game uses simple velocity and gravity physics for bullets and has some landscape destruction.
+this will be a two player game.
+
 Team Personnel
+Rhyse and RyanJeff
+
 Plot & Setting Information
+You are in control of a tank! You must destroy all other tanks before they destroy you! Kill or be killed.
+
 Core Game Play
+Your tank has a gun that has an angle and a power variable.  In order to hit the enemy tank, you must use these two variables in tandem.
+Your tank can also move! beware though! You have a limited amount of fuel, so don't make yourself too vulnerable.
+
 Environment Elements (environments, characters, weapons, etc.)	
+You are in a desert with rolling dunes.  Your tank is there, and so is the enemy.
+
 Interface Usage (mouse, keyboard, etc.)
+Left arrow key move left across the screen, the right arrow to move right across the screen.
+Up arrow to increase the angle of your gun. (Note: clockwise increase of angle. 0 at right side.)
+Down arrow to decreae the angle of your gun.(Note: clockwise increase of angle. 0 at right side.)
+Space to fire!
+escape to quit.
+
 Menu and General Game Usage
+Menus :
+Main Menu
+	Play
+	How to Play
+	Options
+	Quit
