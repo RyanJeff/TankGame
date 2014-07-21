@@ -1,0 +1,148 @@
+#Note: the order of the tiles in the enumerator has to match the order these tiles are in this file
+#0,1,2 cement
+x 0 y 0 width 32 height 32
+x 32 y 0 width 32 height 32
+x 64 y 0 width 32 height 32
+
+#3 rug??
+object 4
+x 96 y 0 width 96 height 64
+
+#4 rock
+object 7
+x 192 y 0 width 32 height 64
+
+#5 thing??
+object 8
+x 224 y 0 width 32 height 64
+
+#6 rock2
+x 0 y 32 width 32 height 32
+
+#7 rock3
+x 32 y 32 width 32 height 32
+
+#8 grass
+x 0 y 64 width 32 height 32
+
+#9 fence top left corner
+object 18
+x 32 y 64 width 32 height 64
+
+#10 fence top middle
+object 19
+x 64 y 64 width 32 height 64
+
+#11 fence rop right
+object 20
+x 96 y 64 width 32 height 64
+
+#12 fence bottom left
+object 42
+x 32 y 160 width 32 height 64
+
+#13 fence bottom middle
+object 43
+x 64 y 160 width 32 height 64
+
+#14 fence bottom right
+object 44
+x 96 y 160 width 32 height 64
+
+#12 flower
+x 0 y 128 width 32 height 32
+
+#13 wood
+x 0 y 160 width 32 height 64
+
+#14 barrel
+x 32 y 224 width 32 height 64
+
+#15 flowers1
+x 64 y 224 width 32 height 32
+
+#16 flowers2
+x 96 y 224 width 32 height 32
+
+#17 shrub
+x 32 y 256 width 32 height 64
+
+#18 potted tree
+x 64 y 256 width 64 height 64
+
+#19 pot1
+x 124 y 256 width 32 height 32
+
+#20 pot2
+x 160 y 256 width 32 height 32
+
+#21 bamboo
+x 0 y 320 width 64 height 96
+
+#22 ladder
+x 64 y 320 width 32 height 96
+
+#23 birdhouse
+x 96 y 320 width 32 height 96
+
+#24 pink tree
+x 128 y 288 width 128 height 128
+
+#25 wall lamp
+x 0 y 416 width 64 height 32
+
+#26 window1
+x 64 y 416 width 32 height 32
+
+#27 window2
+x 96 y 416 width 32 height 64
+
+#28 wall flower box 
+x 128 y 416 width 32 height 32
+
+#29 window 3
+x 160 y 416 width 32 height 64
+
+#30 flowerbox 1
+x 196 y 416 width 32 height 64
+
+#31 flowerbox 2
+x 224 y 416 width 32 height 64
+
+#32 tree 1
+object 121
+x 0 y 480 width 128 height 160
+
+#33 tree 2
+object 125
+x 128 y 480 width 128 height 160
+
+#34 house north south
+x 0 y 640 width 160 height 320
+
+#35 house east west left side
+x 160 y 640 width 32 height 288
+
+#36 house east west center
+x 196 y 640 width 32 height 288
+
+#37 house east west right side
+x 228 y 640 width 32 height 288
+
+#38 house chimney
+x 0 y 992 width 32 height 64
+
+#39 fence middle left
+x 32 y 128 width 32 height 32
+
+#40 fence bottom left
+x 32 y 160 width 32 height 64
+
+#41 fence bottom middle
+x 64 y 160 width 32 height 64
+
+#42 fence bottom right
+x 96 y 160 width 32 height 64
+
+#43 fence middle right
+x 96 y 128 width 32 height 32

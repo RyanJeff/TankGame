@@ -1,0 +1,34 @@
+﻿Build started 7/21/2014 6:05:38 PM.
+     1>Project "c:\Users\Ryan\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\ryan\documents\visual studio 2013\Projects\TankGame\Debug\TankGame.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\ryan\documents\visual studio 2013\Projects\TankGame\Debug\TankGame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\ryan\documents\visual studio 2013\Projects\TankGame\Debug\TankGame.lib" /MACHINE:X86 Debug\Character.obj
+         Debug\ExampleGame.obj
+         Debug\Game.obj
+         Debug\Level.obj
+         Debug\main.obj
+         Debug\MathUtils.obj
+         Debug\Player.obj
+         Debug\Sprite.obj
+         Debug\SpriteAnimation.obj
+     1>Character.obj : error LNK2019: unresolved external symbol _IMG_Load referenced in function "protected: void __thiscall Character::processDataFile(class std::basic_ifstream<char,struct std::char_traits<char> > &)" (?processDataFile@Character@@IAEXAAV?$basic_ifstream@DU?$char_traits@D@std@@@std@@@Z)
+     1>Level.obj : error LNK2001: unresolved external symbol _IMG_Load
+     1>ExampleGame.obj : error LNK2019: unresolved external symbol _SDL_UpperBlit referenced in function "protected: void __thiscall ExampleGame::drawLevel(void)" (?drawLevel@ExampleGame@@IAEXXZ)
+     1>Sprite.obj : error LNK2001: unresolved external symbol _SDL_UpperBlit
+     1>Game.obj : error LNK2019: unresolved external symbol _SDL_GetError referenced in function "public: void __thiscall Game::InitSDL(void)" (?InitSDL@Game@@QAEXXZ)
+     1>Game.obj : error LNK2019: unresolved external symbol _SDL_SetVideoMode referenced in function "public: void __thiscall Game::InitSDL(void)" (?InitSDL@Game@@QAEXXZ)
+     1>Game.obj : error LNK2019: unresolved external symbol _SDL_Flip referenced in function "protected: virtual void __thiscall Game::draw(void)" (?draw@Game@@MAEXXZ)
+     1>Game.obj : error LNK2019: unresolved external symbol _SDL_MapRGB referenced in function "public: void __thiscall Game::InitSDL(void)" (?InitSDL@Game@@QAEXXZ)
+     1>Game.obj : error LNK2019: unresolved external symbol _SDL_FillRect referenced in function "protected: void __thiscall Game::clearBackBuffer(void)" (?clearBackBuffer@Game@@IAEXXZ)
+     1>Game.obj : error LNK2019: unresolved external symbol _SDL_PollEvent referenced in function "public: void __thiscall Game::Run(void)" (?Run@Game@@QAEXXZ)
+     1>Game.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function "public: void __thiscall Game::InitSDL(void)" (?InitSDL@Game@@QAEXXZ)
+     1>Game.obj : error LNK2019: unresolved external symbol _SDL_Quit referenced in function "public: void __thiscall Game::Clean(void)" (?Clean@Game@@QAEXXZ)
+     1>Level.obj : error LNK2019: unresolved external symbol _SDL_FreeSurface referenced in function "public: __thiscall Level::~Level(void)" (??1Level@@QAE@XZ)
+     1>SpriteAnimation.obj : error LNK2001: unresolved external symbol _SDL_FreeSurface
+     1>Sprite.obj : error LNK2019: unresolved external symbol _SDL_SetAlpha referenced in function "public: virtual void __thiscall Sprite::Draw(struct SDL_Surface *)" (?Draw@Sprite@@UAEXPAUSDL_Surface@@@Z)
+     1>MSVCRTD.lib(crtexew.obj) : error LNK2019: unresolved external symbol _WinMain@16 referenced in function ___tmainCRTStartup
+     1>c:\users\ryan\documents\visual studio 2013\Projects\TankGame\Debug\TankGame.exe : fatal error LNK1120: 13 unresolved externals
+     1>Done Building Project "c:\Users\Ryan\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.38
