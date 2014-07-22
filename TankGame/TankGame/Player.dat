@@ -1,0 +1,26 @@
+#image must be the first token in the data file
+image: main_character.png
+cellWidth: 32
+cellHeight: 48
+
+Animation RunLeft
+numFrames RunLeft 4
+startFrame RunLeft 4
+frameRate RunLeft 0.2
+
+Animation RunUp
+numFrames RunUp 4
+startFrame RunUp 12
+frameRate RunUp 0.2
+
+Animation RunDown
+numFrames RunDown 4
+startFrame RunDown 0
+frameRate RunDown 0.2
+
+Animation RunRight
+numFrames RunRight 4
+startFrame RunRight 8
+frameRate RunRight 0.2
+
+defaultAnimation RunRight

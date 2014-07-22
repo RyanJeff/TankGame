@@ -15,57 +15,57 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Character.h">
+    <ClInclude Include="Character.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ExampleGame.h">
+    <ClInclude Include="ExampleGame.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Game.h">
+    <ClInclude Include="Game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Level.h">
+    <ClInclude Include="Level.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\MathUtils.h">
+    <ClInclude Include="MathUtils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Player.h">
+    <ClInclude Include="Player.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Sprite.h">
+    <ClInclude Include="Sprite.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SpriteAnimation.h">
+    <ClInclude Include="SpriteAnimation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Character.cpp">
+    <ClCompile Include="Character.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ExampleGame.cpp">
+    <ClCompile Include="ExampleGame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Game.cpp">
+    <ClCompile Include="Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Level.cpp">
+    <ClCompile Include="Level.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\main.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\MathUtils.cpp">
+    <ClCompile Include="MathUtils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Player.cpp">
+    <ClCompile Include="Player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Sprite.cpp">
+    <ClCompile Include="Sprite.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SpriteAnimation.cpp">
+    <ClCompile Include="SpriteAnimation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
